@@ -31,7 +31,7 @@ func main() {
 		})
 	})
 
-	for i := 0; i < 100; i++ {
+	for i := 0; i < 200; i++ {
 		fmt.Printf("Scraping page: %d\n", i)
 		c.Visit("https://tuoitre.vn/kinh-doanh/doanh-nghiep/trang-" + strconv.Itoa(i) + ".htm")
 	}
